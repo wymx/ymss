@@ -1,0 +1,11 @@
+@import "../tools";
+@import "../acss/mp";
+@import "../base/var.module";
+
+@include b('ymss-button') {
+  color: $primary-color;
+  @include e('description') {
+    color: #30ffff;
+    @extend .mv-20;
+    }
+}
