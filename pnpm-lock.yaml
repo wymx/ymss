@@ -99,35 +99,17 @@ importers:
     dependencies:
       '@ymss-ui/utils': link:../utils
 
-  packages/foo:
+  packages/swiper:
     specifiers:
-      '@wei-ui/utils': workspace:^1.0.0
+      '@ymss-ui/utils': workspace:^1.0.0
     dependencies:
-      '@wei-ui/utils': link:../utils
-
-  packages/header:
-    specifiers:
-      '@wei-ui/utils': workspace:^1.0.0
-    dependencies:
-      '@wei-ui/utils': link:../utils
-
-  packages/test:
-    specifiers:
-      '@wei-ui/utils': workspace:^1.0.0
-    dependencies:
-      '@wei-ui/utils': link:../utils
+      '@ymss-ui/utils': link:../utils
 
   packages/utils:
     specifiers:
       mitt: 1.1.3
     dependencies:
       mitt: 1.1.3
-
-  packages/wei-ui:
-    specifiers:
-      '@wei-ui/foo': workspace:^1.0.0
-    dependencies:
-      '@wei-ui/foo': link:../foo
 
   packages/ymss-ui:
     specifiers:

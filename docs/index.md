@@ -6,7 +6,7 @@ editLink: true
 lastUpdated: true
 hero:
   name: ymss-ui
-  text: YYG Vue3企业级中后台组件库
+  text: 企业级中后台组件库
   tagline: 组件库描述 / SLOGAN
   image:
     src: /logo.png
