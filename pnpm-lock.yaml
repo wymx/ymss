@@ -73,6 +73,7 @@ importers:
       '@vitepress-demo-preview/plugin': ^1.1.7
       '@ymss-ui/ymss-ui': workspace:^1.0.0
       element-plus: ^2.2.32
+      minimist: ^1.2.8
       vitepress: 1.0.0-alpha.49
     dependencies:
       '@vitepress-demo-preview/component': 2.2.0_vitepress@1.0.0-alpha.49
@@ -80,6 +81,7 @@ importers:
       '@ymss-ui/ymss-ui': link:../packages/ymss-ui
       element-plus: 2.2.32
     devDependencies:
+      minimist: 1.2.8
       vitepress: 1.0.0-alpha.49
 
   example:
