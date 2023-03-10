@@ -1,10 +1,11 @@
-import minimist from 'minimist'
 import { DefaultTheme, defineConfig } from 'vitepress'
 import { componentPreview, containerPreview } from '@vitepress-demo-preview/plugin'
 import { components } from '../components'
+import minimist from 'minimist'
 
 const argv = minimist(process.argv.slice(2))
 const build = argv.build || false
+// console.log("-----------------",build);
 
 const nav: DefaultTheme.NavItem[] = [
   { text: '指南', link: '/guide/' },
@@ -32,7 +33,7 @@ export default defineConfig({
   title: 'ymss-ui',
   description: '企业级中后台组件库',
   lang: 'cn-ZH',
-  base: build ? '/ymss-ui/' : '/',
+  base: build ? '/ymss/' : '/',
   lastUpdated: true,
   themeConfig: {
     logo: '/logo.png',
