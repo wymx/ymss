@@ -1,7 +1,7 @@
 import minimist from 'minimist'
 import { DefaultTheme, defineConfig } from 'vitepress'
 import { componentPreview, containerPreview } from '@vitepress-demo-preview/plugin'
-import { components } from '../components
+import { components } from '../components'
 
 const argv = minimist(process.argv.slice(2))
 const build = argv.build || false

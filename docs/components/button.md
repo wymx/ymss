@@ -3,7 +3,7 @@
 
 ## 基本使用
 
-<preview path="../demos/button/button-1.vue" title="基本使用" description=" "></preview>
+<demo-preview path="../demos/button/button-1.vue" title="基本使用" description=" "></demo-preview>
 
 ## 组件 API
 
