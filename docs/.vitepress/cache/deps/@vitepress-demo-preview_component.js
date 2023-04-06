@@ -19,7 +19,8 @@ import {
   unref,
   watch,
   withCtx
-} from "./chunk-53QVKN2K.js";
+} from "./chunk-Z5H376BI.js";
+import "./chunk-DFKQJ226.js";
 
 // ../node_modules/.pnpm/@vitepress-demo-preview+component@2.2.0_vitepress@1.0.0-alpha.49/node_modules/@vitepress-demo-preview/component/dist/preview-component.js
 var $ = (t, n) => {

@@ -1,9 +1,38 @@
-
-# Button 
+# Button
 
 ## 基本使用
 
-<demo-preview path="../demos/button/button-1.vue" title="基本使用" description=" "></demo-preview>
+<!-- <script setup>
+import CustomComponent from '../demos/button/button-1.vue'
+</script>
+
+<CustomComponent /> -->
+
+:::preview title || component description content
+
+demo-preview=../demos/button/button-1.vue
+
+:::
+
+<preview path="../demos/button/button-1.vue" title="基本使用" description="description"></preview>
+
+
+
+<!-- ::: details 显示代码
+
+```vue
+<ymss-button msg="msg"></ymss-button>
+```
+
+:::
+
+<details>
+<summary>展开查看</summary>
+
+```vue
+<ymss-button msg="msg"></ymss-button>
+```
+</details> -->
 
 ## 组件 API
 
@@ -30,3 +59,21 @@
 | 插槽名 | 说明 | 参数 |
 |  ----  | ----  | ----  |
 |  |  |  |
+
+
+<style>
+  .example{
+    border: 1px solid #f5f5f5;
+    border-radius: 5px;
+    padding:20px
+  }
+  .el-button {
+    margin:10px 5px
+  }
+  details > summary:first-of-type {
+    font-size: 10px;
+    padding: 8px 0;
+    cursor: pointer;
+    color: #1989fa;
+  }
+</style>

@@ -10,8 +10,7 @@
   "author": "ymss",
   "license": "ISC",
   "dependencies": {
-    "@ymss-ui/button": "workspace:^1.0.0",
-    "@ymss-ui/swiper": "workspace:^1.0.0"
+    "@ymss-ui/button": "workspace:^1.0.0"
   },
   "devDependencies": {
     "rimraf": "^4.2.0",

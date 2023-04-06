@@ -5,7 +5,7 @@
 @include b('ymss-button') {
   color: $primary-color;
   @include e('description') {
-    color: #30ffff;
+    color: #000000;
     @extend .mv-20;
     }
 }

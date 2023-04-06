@@ -5,7 +5,6 @@ import minimist from 'minimist'
 
 const argv = minimist(process.argv.slice(2))
 const build = argv.build || false
-// console.log("-----------------",build);
 
 const nav: DefaultTheme.NavItem[] = [
   { text: '指南', link: '/guide/' },
@@ -40,7 +39,7 @@ export default defineConfig({
     siteTitle: 'ymss-ui',
     outline: 3,
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/wymx/ymss' }
     ],
     nav,
     sidebar
