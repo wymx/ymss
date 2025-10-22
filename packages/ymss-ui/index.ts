@@ -10,7 +10,9 @@ const components = [
 // 全局动态添加组件
 const install = (app: App): void => {
   components.forEach(component => {
-    app.component(component.name, component)
+    if (component.name) {
+      app.component(component.name, component)
+    }
   })
 }
 
